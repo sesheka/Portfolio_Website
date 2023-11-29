@@ -1,0 +1,103 @@
+body
+{
+  text-align: center;
+  font-family:'Rubik', sans-serif;
+  width: 100%;
+}
+#name
+{
+  font-size: 23px;
+}
+#image3
+{
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+h1
+{
+  font-size: 50px;
+}
+#c
+{
+  padding-right: 300px;
+  display: inline-block;
+  color: black;
+  visibility: visible;
+}
+#image1
+{
+  border-radius: 10px;
+  float: left;
+  padding-left: 400px;
+}
+#image2
+{
+  height: 265px;
+  width: 265px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-left: 30px;
+}
+#logo
+{
+  position: fixed;
+  left: 120px;
+  top: 10px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.menu {
+  font-family: 'Rubik', sans-serif;
+  position: fixed;
+  top: 0px;
+  z-index: 20;
+  cursor: pointer;
+  width: 100%;
+  background-color: #6a3dff;
+  margin-top: 0px;
+  margin-left: -50px;
+  margin-right: -50px;
+  height: 75px;
+}
+
+.links {
+  color: #fff;
+  padding-top: 12px;
+  padding-left: 33px;
+  padding-right: 25px;
+  padding-bottom: 7px;
+  width: 100%;
+  font-family: 'Rubik', sans-serif;
+  font-size: 23px;
+  display: inline;
+  height: 200px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.links:hover {
+  background-color: #6a3dff;
+}
+.line {
+  height: 6px;
+  background-color: #6a3dff;
+  color: white;
+  width: 100%;
+  margin: 8px auto;
+}
+
+/* === Go to Top === */
+#go-to-top {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  width: 50px;
+  height: 50px;
+  display: block;
+}
